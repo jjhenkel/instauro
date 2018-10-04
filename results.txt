@@ -1,0 +1,128 @@
+TRAINED ON 80% of 123
+TESTED ON 4
+NO PARSEABILITY
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-123-1.txt 1 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset1
+Total files: 4394
+Average line error: 0.06948764370237323 (the lower, the better)
+Recall@1: 0.9301319981793355 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-123-2.txt 2 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset2
+Total files: 11069
+Average line error: 0.06606186300743706 (the lower, the better)
+Recall@1: 0.9331466257114464 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-123-3.txt 3 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset3
+Total files: 18633
+Average line error: 0.043017123099181764 (the lower, the better)
+Recall@1: 0.9560993935490796 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-123-4.txt 4 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset4
+Total files: 17132
+Average line error: 0.07607932411532342 (the lower, the better)
+Recall@1: 0.9212000933924819 (the higher, the better)
+
+------------------------------------------------------------------------------------------------------------
+
+TRAINED ON 80% of 124
+TESTED ON 3
+NO PARSEABILITY
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-124-1.txt 1 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset1
+Total files: 4394
+Average line error: 0.05623210319201431 (the lower, the better)
+Recall@1: 0.9433318161128812 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-124-2.txt 2 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset2
+Total files: 11069
+Average line error: 0.058874926856155994 (the lower, the better)
+Recall@1: 0.9405547023217996 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-124-3.txt 3 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset3
+Total files: 18633
+Average line error: 0.05606345848807708 (the lower, the better)
+Recall@1: 0.9429506789030215 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-124-4.txt 4 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset4
+Total files: 17132
+Average line error: 0.034004839765092075 (the lower, the better)
+Recall@1: 0.9652696707915013 (the higher, the better)
+
+------------------------------------------------------------------------------------------------------------
+
+TRAINED ON 80% of 134
+TESTED ON 2
+NO PARSEABILITY
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-134-1.txt 1 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset1
+Total files: 4394
+Average line error: 0.05291763719370591 (the lower, the better)
+Recall@1: 0.9467455621301775 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-134-2.txt 2 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset2
+Total files: 11069
+Average line error: 0.08530720304615631 (the lower, the better)
+Recall@1: 0.9126389014364441 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-134-3.txt 3 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset3
+Total files: 18633
+Average line error: 0.0324414562023027 (the lower, the better)
+Recall@1: 0.9669403746041969 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-134-4.txt 4 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset4
+Total files: 17132
+Average line error: 0.037160055849768496 (the lower, the better)
+Recall@1: 0.9620593042260098 (the higher, the better)
+
+------------------------------------------------------------------------------------------------------------
+
+TRAINED ON 80% of 234
+TESTED ON 1
+NO PARSEABILITY
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-234-1.txt 1 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset1
+Total files: 4394
+Average line error: 0.09691813700472916 (the lower, the better)
+Recall@1: 0.9021392808375057 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-234-2.txt 2 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset2
+Total files: 11069
+Average line error: 0.06505826280780054 (the lower, the better)
+Recall@1: 0.934140392086006 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-234-3.txt 3 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset3
+Total files: 18633
+Average line error: 0.036987371594338445 (the lower, the better)
+Recall@1: 0.9624859120914506 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-234-4.txt 4 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset4
+Total files: 17132
+Average line error: 0.03990337393569083 (the lower, the better)
+Recall@1: 0.9594910109736167 (the higher, the better)
+
+
+------------------------------------------------------------------------------------------------------------
+
+TRAINED ON 80% of 1234 (ALL)
+NO PARSEABILITY
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-all-1.txt 1 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset1
+Total files: 4394
+Average line error: 0.044905243100748816 (the lower, the better)
+Recall@1: 0.9549385525716887 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-all-2.txt 2 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset2
+Total files: 11069
+Average line error: 0.05105686981923538 (the lower, the better)
+Recall@1: 0.9485048333182763 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-all-3.txt 3 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset3
+Total files: 18633
+Average line error: 0.02839380165285305 (the lower, the better)
+Recall@1: 0.9711801642247625 (the higher, the better)
+
+root@velveeta:/mnt/artifacts/code-rep/Baseline# python3 guessPreds.py ../scores-pDS-all-4.txt 4 | python3 evaluate.py -d /mnt/artifacts/code-rep/Datasets/Dataset4
+Total files: 17132
+Average line error: 0.03525851392856744 (the lower, the better)
+Recall@1: 0.9641022647676862 (the higher, the better)
+
